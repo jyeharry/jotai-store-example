@@ -16,7 +16,7 @@ import {
 
 export default function Home() {
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-evenly', rowGap: '6rem', columnGap: '2rem', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', justifyContent: 'space-evenly', gap: '2rem', flexWrap: 'wrap' }}>
       <Root
         isValueAtom={isValue1Atom}
         toggleIsValueAtom={toggleIsValue1Atom}
